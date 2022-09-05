@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Libre+Baskerville&display=swap');
+@import 'banner.css';
+@import 'book.css';
+@import "bootstrap/scss/bootstrap";
+@import 'button.css';
+@import 'card.css';
+@import 'color.css';
+@import "font-awesome";
 
 body {
   font-family: 'Libre Baskerville', serif;
-  color: #C2A960;
-  background-color: #1C503B;
+  color: var(--secondary);
+  background-color: var(--primary-dark);
   text-align: center;
+  margin: 0px;
 }
 
 h1, h2, h3, h4 {
@@ -16,38 +24,7 @@ img {
   width: 450px;
   margin: 20px auto;
   border-radius: 1.5px;
-  box-shadow: 2px 2px #3e523b;
-}
-
-.super-container {
-  padding: 0px;
-  margin: 0px;
-  object-fit: cover;
-}
-
-.header {
-  background-image: url("images/profile.jpg");
-  background-size: cover;
-  height: 500px;
-  position: relative;
-  margin: 0px;
-  padding: 0px;
-}
-
-h1 {
-  font-size: 3.5em;
-  position: absolute;
-  top: 90px;
-  left: 300px;
-}
-
-h2 {
-  font-size: 2em;
-  position: absolute;
-  border-radius: 4px;
-  text-align: left;
-  left: 550px;
-  background-color: rgba(79, 79, 50, 0.3);
+  box-shadow: 2px 2px var(--primary);
 }
 
 h3 {
@@ -56,7 +33,7 @@ h3 {
 
 br {
   width: 100%;
-  border-bottom: 1px solid #C2A960;
+  border-bottom: 1px solid var(--secondary);
 }
 
 p {
@@ -67,30 +44,9 @@ p {
   top: 200px;
 }
 
-#descr-program {
-  top: 250px;
-}
-
-#descr-experiment {
-  top: 300px;
-}
-
 a {
   text-decoration: none;
   display: inline-block;
-}
-
-.container {
-  width: 400px;
-  margin: 24px auto;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  justify-content: center;
 }
 
 .text-left-align {
@@ -98,15 +54,15 @@ a {
 }
 
 a.button-yellow {
-  color: #1C503B;
-  background-color: #C2A960;
+  color: var(--dark-green);
+  background-color: var(--secondary);
   padding: 16px 24px;
   border-radius: 4px;
   box-shadow: 2px 1px #70684f;
 }
 
 .button-yellow:hover {
-  background-color: #e0c36d;
+  background-color: var(--primary-light);
 }
 
 .list-inline {
@@ -119,6 +75,10 @@ a.button-yellow {
 }
 
 .list-inline a {
-  color: #C2A960;
+  color: var(--secondary);
   font-size: 32px;
+}
+
+.container {
+  padding-top: 32px;
 }
