@@ -159,3 +159,21 @@
     transition-duration: 0s;
   }
 }
+
+.card-box {
+  padding: 32px;
+  border: 1px solid var(--gold);
+  border-radius: 5px;
+}
+
+.card-box li {
+  font-size: 0.8rem;
+}
+
+.card-box p {
+  margin-bottom: 4px;
+}
+
+.card-box h3:hover,p:hover,li:hover {
+  opacity: 0.3;
+}

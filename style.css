@@ -7,12 +7,13 @@
 @import 'card.css';
 @import 'color.css';
 @import "font-awesome";
+@import "footer.css";
 
 body {
   font-family: 'Libre Baskerville', serif;
   color: var(--secondary);
   background-color: var(--primary-dark);
-  text-align: center;
+  text-align: left;
   margin: 0px;
 }
 
@@ -63,20 +64,6 @@ a.button-yellow {
 
 .button-yellow:hover {
   background-color: var(--primary-light);
-}
-
-.list-inline {
-  list-style: none;
-  padding: 0;
-}
-
-.list-inline li {
-  display: inline;
-}
-
-.list-inline a {
-  color: var(--secondary);
-  font-size: 32px;
 }
 
 .container {

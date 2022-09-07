@@ -1,0 +1,25 @@
+.footer {
+  text-align: center;
+  height: 120px;
+  padding: 20px 50px 50px 20px;
+  margin-top: 64px;
+  color: var(--gold);
+  border-top: 0.5px solid var(--gold);
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+.footer-links a {
+  color: var(--gold);
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 40px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer-copyright {
+  opacity: 0.15;
+}
