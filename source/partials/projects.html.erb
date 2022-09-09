@@ -1,0 +1,14 @@
+<div class="container">
+  <h3 class="m-4">Apps I built</h3>
+  <div class="cards">
+    <% data.projects.each do |project| %>
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= project.image %>)">
+        <div class="content">
+          <div class="title"><%= project.name %></div>
+          <p>Shows a list of favourite movies, bookmark and search films</p>
+        </div>
+      </div>
+      <% link_to "", project.url, class: 'card-link', target: '_blank'%>
+    <% end %>
+  </div>
+</div>
