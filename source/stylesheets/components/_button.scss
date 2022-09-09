@@ -1,0 +1,26 @@
+.btn-ghost {
+  color: $secondary;
+  border: 1px solid $secondary;
+  padding: 8px 24px;
+  // border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.btn-flat {
+  color: $secondary;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: $primary-dark;
+  transition: background 0.3s ease;
+  box-shadow:  1px 1px 3px rgba(202, 172, 20, 0.2);
+
+  &:hover {
+    background: $primary;
+  }
+}

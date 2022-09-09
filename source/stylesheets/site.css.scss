@@ -1,0 +1,66 @@
+@import "config/fonts";
+@import "config/colors";
+
+@import "components/index";
+@import "pages/index";
+
+body {
+  font-family: $body-font;
+  color: $secondary;
+  background-color: $primary-dark;
+  text-align: left;
+  margin: 0px;
+}
+
+h1, h2, h3, h4 {
+  font-family: $headers-font;
+}
+
+img {
+  width: 450px;
+  margin: 20px auto;
+  border-radius: 1.5px;
+  box-shadow: 2px 2px $primary;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+br {
+  width: 100%;
+  border-bottom: 1px solid $secondary;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+#descr-story {
+  top: 200px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.text-left-align {
+  text-align: left;
+}
+
+a.button-yellow {
+  color: $dark-green;
+  background-color: $secondary;
+  padding: 16px 24px;
+  border-radius: 4px;
+  box-shadow: 2px 1px #70684f;
+}
+
+.button-yellow:hover {
+  background-color: $secondary-light;
+}
+
+.container {
+  padding-top: 32px;
+}
