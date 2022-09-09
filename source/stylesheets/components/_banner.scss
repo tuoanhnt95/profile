@@ -6,7 +6,7 @@ header {
 .banner {
   margin-top: -82px;
   height: 500px;
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+
 
   .banner-background {
     object-fit: cover;
@@ -42,5 +42,14 @@ header {
     opacity: .9;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
     margin-top: 8px;
+  }
+}
+
+.banner-gradient {
+  display: inline-block;
+  background-color: black;
+
+  img {
+    opacity: 0.6;
   }
 }
