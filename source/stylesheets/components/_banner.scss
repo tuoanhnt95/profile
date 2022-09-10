@@ -6,7 +6,7 @@ header {
 .banner {
   margin-top: -82px;
   height: 600px;
-
+  overflow: hidden;
 
   .banner-background {
     object-fit: cover;
@@ -16,10 +16,7 @@ header {
     height: 100%;
     max-width: $max-width;
     top: 0px;
-    // left: 50%;
-    // transform: translateX(-50%);
-
-    // background-position: 0px -200px;
+    transition: all 2s ease-in-out;
   }
 
   .wrapper {
@@ -50,7 +47,16 @@ header {
   background-color: black;
 
   img {
-    opacity: 0.6;
     box-shadow: none;
+    opacity: 0.45;
+    transition: opacity 2s ease-in-out;
   }
+}
+
+.banner-zoom {
+  transform: perspective(1500px) translateZ(1400px) translateY(10%) translateX(16%);
+}
+
+.banner-opacity {
+  opacity: 0.1;
 }
