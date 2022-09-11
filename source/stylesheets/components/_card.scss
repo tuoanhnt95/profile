@@ -47,7 +47,8 @@
 }
 
 .card-category {
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
   height: 180px;
   display: flex;
@@ -112,13 +113,15 @@
   p {
     font-size: 1.125rem;
     line-height: 1.35;
+    text-align: left;
   }
 }
 
 .title {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
 }
 
 @media (hover: hover) and (min-width: 600px) {
@@ -188,6 +191,6 @@
 .card-link {
   position: absolute;
   size: 100%;
-  top: 0px;
-  left: 0px;
+  height: 100%;
+  background-color: red;
 }
