@@ -1,44 +1,53 @@
-- name: HealthWay
+- name: Movie Watch List
   description: Decent description of the app
   image: images/movie-watch-list.jpg
   url: https://www.google.com
+  stack: Html, Css, Jvs, Rails
 
 - name: PlayerWon
   description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+  image: images/playerwon.jpg
+  url: https://player-won.herokuapp.com/
+  stack: Html, Css, Jvs, Rails
 
-- name: Movie Watch List
+- name: HealthWay
   description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+  image: images/healthway.jpg
+  url: http://www.healthway.live/
+  stack: Html, Css, Jvs, Rails
 
 - name: ApaHunt
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  stack: Html, Css, Jvs, Rails
 
 - name: Line Chatbot
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: images/line-chat-bot.jpeg
   url: https://www.google.com
+  stack: Html, Css, Jvs, Rails
 
 - name: Lottery Result predictor
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  stack: Html, Css, Jvs, Rails
 
 - name: Casino Town
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  stack: Html, Css, Jvs, Rails
 
-- name: Bug tracker
+- name: Gif Search
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  stack: Html, Css, Jvs, Rails
 
 - name: Crypto Manager
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  stack: Html, Css, Jvs, Rails
