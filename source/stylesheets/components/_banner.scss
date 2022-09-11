@@ -16,7 +16,7 @@ header {
     height: 100%;
     max-width: $max-width;
     top: 0px;
-    transition: all 2s ease-in-out;
+    opacity: 0.45;
   }
 
   .wrapper {
@@ -46,17 +46,26 @@ header {
   display: inline-block;
   background-color: black;
 
+
   img {
     box-shadow: none;
-    opacity: 0.45;
-    transition: opacity 2s ease-in-out;
   }
 }
 
 .banner-zoom {
-  transform: perspective(1500px) translateZ(1400px) translateY(10%) translateX(16%);
+  transition: all 2.5s ease-in-out;
+  transform: perspective(500px) translateZ(450px) translateY(10%) translateX(16%);
 }
 
 .banner-opacity {
+  transition: opacity 2.5s;
+  background-color: black;
   opacity: 0.1;
+}
+
+.content-fade {
+  h1, h2 {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+  }
 }
